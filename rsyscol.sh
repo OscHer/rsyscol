@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ######################################################################
-# @author      : Óscar Heredia 
+# @author      : Óscar Heredia (oscar@clickdefense.io)
 # @file        : log.sh
 # @created     : lunes feb 10, 2025 09:30:00 CET
 #
@@ -43,16 +43,21 @@ log() {
     echo -e "${COLOR}[${LEVEL}]${NC} ${MESSAGE}"
 }
 
+# Function to generate demo logs
+demo_logs() {
+    log DEBUG "This is a debug message."
+    log INFO "This is an info message."
+    log NOTICE "This is a notice message."
+    log WARNING "This is a warning message."
+    log ERROR "This is an error message."
+    log CRITICAL "This is a critical message."
+    log ALERT "This is an alert message."
+    log EMERGENCY "This is an emergency message."
+    log PROMPT "This is a prompt message."
+}
+
 # Example usage (Uncomment to test)
-# log DEBUG "This is a debug message."
-# log INFO "This is an info message."
-# log NOTICE "This is a notice message."
-# log WARNING "This is a warning message."
-# log ERROR "This is an error message."
-# log CRITICAL "This is a critical message."
-# log ALERT "This is an alert message."
-# log EMERGENCY "This is an emergency message."
-# log PROMPT "This is a prompt message."
+# demo_logs
 
 # To use this script in another file, add:
 # source log.sh
