@@ -65,6 +65,23 @@ log DEBUG "This is a debug message."
 log CRITICAL "Critical failure detected!"
 ```
 
+## Appendix
+### Roadmap
+- [ ] Add support for [logger](https://https://www.man7.org/linux/man-pages/man1/logger.1.html)
+- [ ] Add support for custom log levels.
+
+### References
+- [rsyslog](https://www.rsyslog.com/)
+- [Bash Colors](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+- [logger man](https://www.man7.org/linux/man-pages/man1/logger.1.html)
+
+### Acknowledgements
+- ChatGPT for the inspiration.
+- Copilot for the suggestions.
+- GitHub for hosting.
+- My Ophthalmologist for the color vision.
+
+
 ---
 
 ## Contributing
@@ -74,4 +91,6 @@ Feel free to fork this project and submit pull requests with improvements.
 
 ## License
 `rsyscol` is licensed under the MIT License.
+
+
 
