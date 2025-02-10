@@ -52,6 +52,8 @@ log PROMPT "Please enter your name:"
 [ERROR] Something went wrong!
 [PROMPT] Please enter your name:
 ```
+or in color:
+![Example Output](example.png)
 
 ### Using in Scripts
 Include `source log.sh` at the beginning of your script:

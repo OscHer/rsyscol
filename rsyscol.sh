@@ -57,7 +57,7 @@ demo_logs() {
 }
 
 # Example usage (Uncomment to test)
-# demo_logs
+ demo_logs
 
 # To use this script in another file, add:
 # source log.sh
