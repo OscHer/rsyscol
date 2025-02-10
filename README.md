@@ -53,6 +53,7 @@ log PROMPT "Please enter your name:"
 [PROMPT] Please enter your name:
 ```
 or in color:
+
 ![Example Output](example.png)
 
 ### Using in Scripts
